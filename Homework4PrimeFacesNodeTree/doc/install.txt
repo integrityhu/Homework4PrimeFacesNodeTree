@@ -1,0 +1,8 @@
+put to standalone.xml
+
+        <subsystem xmlns="urn:jboss:domain:naming:2.0">
+            <bindings>
+                <simple name="java:jboss/webencarta-settings/upload-root" value="/home" type="java.lang.String"/>
+            </bindings>
+            <remote-naming/>
+        </subsystem>
